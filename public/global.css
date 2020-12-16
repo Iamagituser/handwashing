@@ -3,6 +3,31 @@
 
 :root {
     font-family: 'Quicksand', sans-serif;
-    
-     /* font-family: 'Open Sans', sans-serif; */
+}
+.sr-only {
+    display: none;
+}
+.grid {
+    display: grid;
+}
+button{
+    padding :10px 20px;
+    border: transparent;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+button:hover{
+    background-color: rgb(235, 97, 120);
+    cursor:pointer;
+}
+h1{
+    margin:0;
+}
+@media only screen and (max-width: 600px){
+    h1 { 
+        font-size: 1.4rem;
+    }
+    h2 { 
+        font-size: 1rem;
+    }
 }
